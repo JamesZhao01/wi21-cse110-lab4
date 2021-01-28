@@ -1,0 +1,19 @@
+{
+  "name": "wi21-cse110-lab4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesZhao01/wi21-cse110-lab4.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JamesZhao01/wi21-cse110-lab4/issues"
+  },
+  "homepage": "https://github.com/JamesZhao01/wi21-cse110-lab4#readme"
+}
