@@ -41,3 +41,8 @@ is repeatedly overriden, until the last iteration in the for loop.
 
 16. When comparing two operands of different types, == will implicitly convert both values to numbers and check for equality based on that. However, === also checks for equality between the datatypes of the operands, so any === statement involving two different data types will always result in false. 
 
+17. 'How are you?'. Because a comparison of two different types is performed, javascript turns true into 1. Because 2 != 1, the `if` statement does not run. Next, the `else if` is checked. Because 2 is converted to true as a Boolean, the `else if` condition is true, and 'How are you?' is printed. 
+
+19. [6, 8, 10]. In modifyArray, for every element in the passed in array, modifyArray calls `callback(array[i], function(x){return x * 2})`. Within the callback function, doSomething, the parameter callback is called with num + 2. Thus, first 2 is added to the number, and this number is passed into the `2*x` function. Thus, every `item` in `array` will be changed to `(item + 2) * 2`. Thus, [6, 8, 10] will be outputted. 
+
+21. 1 4 3 2. 1 and 4 both print immediately as they are not in any timeout. Next 3 is printed, as it is printed on the next event cycle. Lastly, 2 is printed because it is set to print after a 1 second timer expires.  
