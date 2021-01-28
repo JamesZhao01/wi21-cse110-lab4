@@ -45,9 +45,11 @@ function xd(num, cb) {
 console.log(modArr([1, 2, 3], xd));
 
 function printNums() {
-    console.log(1);
-    setTimeout(function () { console.log(2); }, 1000);
-    setTimeout(function () { console.log(3); }, 0);
-    console.log(4);
+    const lmao = [];
+    if (true) {
+        const abc = 100;
+    }
+    lmao.push(1);
+    console.log(lmao);
 }
 printNums();
